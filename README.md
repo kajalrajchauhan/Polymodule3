@@ -1,18 +1,21 @@
 # Polymodule3
-Steps to make the project
-Clone git repository https://github.com/projectsophon/hardhat-circom.
-Go on circuit and and from their go to circuit.custom
-Now, write the logic for the circuit as shown below -
-Quick Start
-Compile the Multiplier2() circuit and verify it against a smart contract verifier
+## Steps to make the project
+* Clone git repository https://github.com/projectsophon/hardhat-circom.
+* Go on circuit and and from their go to circuit.custom
+* Now, write the logic for the circuit as shown below -
+## Quick Start
+* Compile the Multiplier2() circuit and verify it against a smart contract verifier
+
+
+
 
 pragma circom 2.0.0;
-
 /*This circuit template checks that c is the multiplication of a and b.*/  
-
-template CustomCircuit () {  
+template CustomCircuit ()
+{  
+    
     // signal inputs
-
+    
     signal input a;
     signal input b;
 
